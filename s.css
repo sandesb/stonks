@@ -1,0 +1,456 @@
+*{
+    margin:0;
+    padding: 0;
+}
+a:hover
+{
+   background-color: yellow;
+}
+.dropbtn {
+    background-color: #4ca8af;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(to top right, #9999ff 0%, #ff99cc 100%);
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    z-index: 0;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+  .dark
+{
+  float:right;
+  margin-left:700px;
+  margin-top: 6px;
+
+}
+.light
+{
+  margin-left:200px;
+  margin-top: 6px;
+}
+  .darkm{
+    width: 8%;
+    height: 100px;
+    float: left;
+    background:black;
+    background-image: url(dak.jpg);
+    background-size: cover;
+    padding-left:8px;
+    box-shadow: 0px 8px 16px 0px #434446;
+  }
+  .bg 
+{
+    width: 1264px;
+    height: 500px;
+    margin: 10 auto;
+    background-image: url(graph.jpg);
+    background-position: 5%;
+    background-size: cover;
+}
+.heading-text1
+{
+ color: #00fa60;
+ float:left;
+ padding-top: 110px;
+ font-weight: bold;
+ font-size: 20px;
+ font-family: 'Montserrat', sans-serif;
+ text-align: left;
+ text-shadow: 2px 2px #050303;
+}
+.new
+    {
+     border-left: red solid 10qpx;
+     background-color: #005F8E;
+    }
+.tour
+{
+    height:800px;
+    background: linear-gradient(to bottom left, #7475b7 -2%, #afc3d6 99%);
+    
+}
+.tour1
+{
+    height:900px;
+    background: linear-gradient(to bottom left, #7475b7 -2%, #afc3d6 99%);
+}
+.tour1
+{
+    height:900px;
+    background: linear-gradient(to bottom left, #7475b7 -2%, #afc3d6 99%);
+}
+.heading-text
+{
+ color: white;
+ text-align: center;
+ padding:20px;
+ padding-top: 50px
+}
+.heading-text0
+{
+ color: black;
+ text-align: center;
+ padding:20px;
+ padding-top: 50px
+}
+.dates
+{
+    background-color: white;
+}
+.dates 
+{
+
+}
+.dates  li
+{
+padding:10px;
+border-bottom:1px solid black;
+}
+.logo{
+    width: 8%;
+    height: 100px;
+    float: left;
+    background:green;
+    background-image: url(grow.jpg);
+    background-size: cover;
+    padding-left:8px;
+    box-shadow: 0px 8px 16px 0px #434446;
+}
+
+.menu{
+    width:100%;
+    position: fixed;
+    float:right;
+    height: 100px;
+    background: linear-gradient(to bottom, #79f7d7 0%, #94b447 115%);
+    box-shadow: 0px 8px 16px 0px #434446;
+    z-index: 1;
+}
+    .nav-bar{
+      display: inline;
+      float:left;
+      padding-top: 20px;
+      padding-left: 30px;
+
+}
+.nav-bar li {
+    float:left;
+    display: inline;
+}
+.nav-bar li a {
+    text-decoration: underline;
+    text-align: center;
+
+    margin: 90px;
+    height: 20px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgb(0, 0, 0);
+}
+
+.body {
+        height: 1000px;
+        background: linear-gradient(to bottom left, #7475b7 -2%, #afc3d6 99%);
+}
+.container
+{
+    width:1042px;
+    height: 365px;
+    margin: 0 auto;
+    box-shadow: 0px 8px 16px 0px #434446;
+}
+.container6
+{
+    width:1042px;
+    height: 365px;
+    border-radius: 30px;
+    margin: 0 auto;
+    box-shadow: 0px 8px 16px 0px #434446;
+}
+.container1
+{
+    width:1042px;
+    height: 500px;
+    margin: 0 auto;
+    box-shadow: 0px 8px 16px 0px rgb(78, 89, 104);
+    background: linear-gradient(to top, #51a995 -2%, #afc3d6 99%);
+}
+.container5
+{
+    width:1042px;
+    height: 500px;
+    margin-top: 12px;
+    border-radius: 30px;
+    box-shadow: 0px 8px 16px 0px rgb(78, 89, 104);
+    background: linear-gradient(to top, #51a995 -2%, #afc3d6 99%);
+}
+.dark1
+{
+    width:1042px;
+    height: 500px;
+    margin: 0 auto;
+    background: black;
+}
+
+.text{
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: #005F8E;
+  font-size: 30px;
+}
+.iconfont
+{
+    font-size: 30px;
+}
+.next{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #005F8E;
+    font-size: 30px;
+  }
+.btext{
+  padding-top: 10%;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: #000000;
+  font-size: 30px;
+}
+.team{
+  padding-top: 7%;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: #000000;
+  font-size: 30px;
+}
+.par{
+  text-align: center;
+  color: black;
+  font-size: medium;
+  font-family: Impact, Haettenschweiler, sans-serif;
+}
+.box {
+    width:180px;
+    height:180px;
+    background-color: gray;
+    float: left;
+    margin:30px;
+    border-radius: 12px;
+}
+.box1 {
+    width:270px;
+    height:400px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    margin:30px;
+    box-shadow: 0px 8px 16px 0px #434446;
+}
+.img-box5 {
+    width:270px;
+    height:200px;
+    background-image: url(thanos.jpg) ;
+    background-color: rgb(151, 16, 16);
+    background-position: 2%;
+    background-size: contain;
+    float: left;
+}
+.img-box6 {
+    width:270px;
+    height:200px;
+    background-image: url(loki.jpg) ;
+    background-color: rgb(151, 16, 16);
+    background-position: 50%;
+    background-size: contain;
+    float: left;
+}
+.img-box7 {
+    width:270px;
+    height:200px;
+    background-image: url(zemo.png) ;
+    background-color: rgb(151, 16, 16);
+    background-position: 6%;
+    background-size: contain;
+    float: left;
+}
+.content-center{
+    margin: 0 auto;
+    width: 100px;
+}
+.content-center1{
+    width: 100px;
+}
+.ktm
+{
+    background-color: rgb(10, 206, 255);
+    font-weight: 400;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 40px;
+    border:3px solid rgb(7, 7, 7);
+    width: 150px;
+    box-shadow: 0px 4px 10px 0px rgb(199, 243, 3);
+}
+.ktm:hover{
+  background: linear-gradient(to bottom, #f0f0f0 0%, #eeff00 115%);
+  color: white;
+}
+.imgbox {
+    width:180px;
+    height:50px;
+    background-color: rgb(12, 131, 91);
+    float: left;
+    border-radius: 10px;
+}
+.img-box {
+    width:180px;
+    height:130px;
+    background-image: url(thumb16.jpg) ;
+    background-color: rgb(151, 16, 16);
+    background-position: 5%;
+    background-size: cover;
+    float: left;
+    border-radius: 5px;
+}
+.img-box1 {
+    width:180px;
+    height:130px;
+    background-image: url(rob.jpg) ;
+    background-color: rgb(151, 16, 16);
+    background-position: 5%;
+    background-size: cover;
+    float: left;
+    border-radius: 5px;
+}
+.img-box2 {
+    width:180px;
+    height:130px;
+    background-image: url(Harry.jpg) ;
+    background-color: rgb(151, 16, 16);
+    background-position: 5%;
+    background-size: cover;
+    float: left;
+    border-radius: 5px;
+}
+.img-box3 {
+    width:180px;
+    height:130px;
+    background-image: url(IMG.jpg) ;
+    background-color: rgb(151, 16, 16);
+    background-position: 5%;
+    background-size: cover;
+    float: left;
+    border-radius: 5px;
+}
+.more
+{
+    margin: 5px;
+    margin-top: 270px;
+    text-align: center;
+    font-family: monospace, Haettenschweiler, sans-serif;
+    font-size: 8px;
+
+}
+.p1
+{
+    font-family: monospace;
+    font-style: oblique;
+    display: inline;
+    font-weight: bold;
+    color:rgb(168, 98, 70);
+    text-decoration: underline;
+}
+{
+    box-sizing: border-box;
+  }
+  
+  input[type=text], select, textarea {
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    padding-top: :30px;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 40px;
+    color: white;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 40px;
+    color: white;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+    }
+  }
